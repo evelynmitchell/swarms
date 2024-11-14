@@ -10,6 +10,7 @@ copyright: TGSC Corp 2024. All rights reserved.
 
 plugins:
   # - glightbox
+  - test
   - search
   - git-authors
   - mkdocs-jupyter:
