@@ -14,6 +14,7 @@ jobs:
         with:
           python-version: 3.11
       - run: pip install super_collections
+      - run: pip install rich
       - run: pip install mkdocs-material
       - run: pip install mkdocs-glightbox
       - run: pip install "mkdocstrings[python]"
