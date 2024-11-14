@@ -143,7 +143,7 @@ nav:
       # - Swarms + Docker: 
       - Swarms Framework Architecture: "swarms/concept/framework_architecture.md"
       # - Prelimary:
-        # - 80/20 Rule For Agents: "swarms/prompting/8020.md"
+      # - 80/20 Rule For Agents: "swarms/prompting/8020.md"
       - Managing Prompts in Production: "swarms/prompts/main.md"
     - Agents:
       # - Overview: "swarms/structs/index.md"
