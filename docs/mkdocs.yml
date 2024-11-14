@@ -15,7 +15,7 @@ plugins:
   - mkdocs-jupyter:
         kernel_name: python3
         execute: false
-        include_source: True
+        include_source: true
         include_requirejs: true
   - mkdocstrings:
       default_handler: python
