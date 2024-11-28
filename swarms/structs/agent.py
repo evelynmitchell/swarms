@@ -2271,6 +2271,7 @@ class Agent:
         logger.info("SOP Uploaded into the memory")
 
     def run(
+        # pylint: disable=duplicate-code
         self,
         task: Optional[str] = None,
         img: Optional[str] = None,

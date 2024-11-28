@@ -478,6 +478,7 @@ class AgentRearrange(BaseSwarm):
             return e
 
     def run(
+        # pylint: disable=duplicate-code
         self,
         task: str = None,
         img: str = None,
