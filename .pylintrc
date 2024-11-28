@@ -107,7 +107,10 @@ disable=
     fixme,
     cyclic-import,
     import-error,
+    # ignored in flake8 also
     line-too-long,
+    # this will be addressed later
+    missing-module-docstring,
 
 
 [REPORTS]
