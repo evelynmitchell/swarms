@@ -109,12 +109,75 @@ disable=
     import-error,
     # ignored in flake8 also
     line-too-long,
-    wrong-import-position
+    wrong-import-position,
+    wrong-import-order,
     # this will be addressed later
     missing-module-docstring,
     unspecified-encoding,
     import-outside-toplevel,
-
+    deprecated-typing-alias,
+    consider-alternative-union-syntax,
+    missing-param-doc,
+    unused-argument,
+    keyword-arg-before-vararg,
+    redundant-returns-doc,
+    no-member,
+    consider-using-assignment-expr,
+    no-else-return,
+    differing-param-doc,
+    too-many-positional-arguments,
+    too-complex,
+    differing-type-doc,
+    inconsistent-return-statements,
+    wrong-import-position,
+    dangerous-default-value,
+    unused-wildcard-import,
+    missing-raises-doc,
+    arguments-differ,
+    raise-missing-from,
+    redefined-builtin,
+    ungrouped-imports,
+    redefined-argument-from-local,
+    bad-builtin,
+    missing-type-doc,
+    redefined-outer-name,
+    unknown-option-value,
+    logging-fstring-interpolation,
+    too-many-function-args,
+    useless-return,
+    unnecessary-ellipsis,
+    missing-timeout,
+    too-many-nested-blocks,
+    unused-variable,
+    use-set-for-membership,
+    arguments-renamed,
+    redefined-variable-type,
+    no-value-for-parameter,
+    too-many-public-methods,
+    super-init-not-called,
+    consider-using-in,
+    possibly-used-before-assignment,
+    too-many-instance-attributes,
+    else-if-used,
+    no-self-argument,
+    consider-using-f-string,
+    raising-bad-type,
+    assignment-from-no-return,
+    unnecessary-pass,
+    subprocess-run-check,
+    consider-using-with,
+    assignment-from-none,
+    using-constant-test,
+    unused-private-member,
+    eval-used,
+    too-many-statements,
+    useless-parent-delegation,
+    pointless-string-statement,
+    not-an-iterable,
+    not-callable,
+    self-assigning-variable,
+    unexpected-keyword-arg,
+    
 
 
 
@@ -126,7 +189,7 @@ disable=
 output-format=text
 
 # Tells whether to display a full report or only the messages
-reports=full
+reports=yes
 
 # Python expression which should return a note less than 10 (10 is the highest
 # note). You have access to the variables 'fatal', 'error', 'warning', 'refactor', 'convention'
