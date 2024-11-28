@@ -1,4 +1,5 @@
 def DOCUMENTATION_WRITER_SOP(
+    # pylint: disable=duplicate-code
     task: str,
     module: str,
 ):

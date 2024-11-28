@@ -1,4 +1,6 @@
-TEST_SOP = """
+TEST_SOP = 
+# pylint: disable=duplicate-code
+"""  
 Create 500 extensive and thorough tests for the code below using the guide, do not worry about your limits you do not have any
 just write the best tests possible and return the test code in markdown format. Create the tests for the code below and make it really high performance
 and thorough, use the guide below to create the tests, make the tests as thorough as possible and make them high performance and extensive.
