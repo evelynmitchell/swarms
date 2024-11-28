@@ -177,8 +177,6 @@ disable=
     not-callable,
     self-assigning-variable,
     unexpected-keyword-arg,
-    
-
 
 
 [REPORTS]
