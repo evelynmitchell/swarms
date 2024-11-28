@@ -107,10 +107,12 @@ disable=
     fixme,
     cyclic-import,
     import-error,
+    too-many-arguments,
     # ignored in flake8 also
     line-too-long,
     wrong-import-position,
     wrong-import-order,
+    anomalous-backslash-in-string,
     # this will be addressed later
     missing-module-docstring,
     unspecified-encoding,
