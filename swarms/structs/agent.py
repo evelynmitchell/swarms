@@ -2087,6 +2087,7 @@ class Agent:
                 break
 
     def _serialize_callable(
+        # pylint: disable=duplicate-code
         self, attr_value: Callable
     ) -> Dict[str, Any]:
         """
