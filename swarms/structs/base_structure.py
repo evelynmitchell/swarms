@@ -438,9 +438,9 @@ class BaseStructure:
         )
 
     def _serialize_callable(
-        # pylint: disable=duplicate-code
         self, attr_value: Callable
     ) -> Dict[str, Any]:
+        # pylint: disable=duplicate-code
         """
         Serializes callable attributes by extracting their name and docstring.
 
