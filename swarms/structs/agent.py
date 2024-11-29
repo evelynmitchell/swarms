@@ -2107,6 +2107,7 @@ class Agent:
         }
 
     def _serialize_attr(self, attr_name: str, attr_value: Any) -> Any:
+        # pylint: disable=duplicate-code
         """
         Serializes an individual attribute, handling non-serializable objects.
 
