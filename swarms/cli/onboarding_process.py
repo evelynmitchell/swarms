@@ -1,5 +1,6 @@
 import json
 import os
+import sys
 import time
 from typing import Dict
 
@@ -138,7 +139,7 @@ class OnboardingProcess:
                 logger.info(
                     "User chose to quit the onboarding process."
                 )
-                exit(0)
+                sys.exit(0)
             if not response.strip():
                 raise ValueError(
                     f"{key.capitalize()} cannot be empty."
@@ -154,7 +155,7 @@ class OnboardingProcess:
             logger.warning(
                 "Onboarding process interrupted by the user."
             )
-            exit(1)
+            sys.exit(1)
 
     def collect_user_info(self) -> None:
         """
